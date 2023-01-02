@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/all.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Love Calculator</title>
+</head>
+<body>
+    <h1>Love   <i class="fa-solid fa-heart" id="trans"></i>   Calculator</h1>
+    <p id="p1">Get your love result instantly*</p>
+    <form class="forms">
+        <div class="flex">
+        <div class="inputtext">
+            <label for="yourname">*Your Name:</label><br>
+            <input type="text" id="yourname" name="yourname" class="text" placeholder="Enter Your Name"><br>
+        </div>
+        <div class="inputtext">
+            <label for="His/Hername">Crush's Name:</label><br>
+            <input type="text" id="crushname" name="crush" class="text" placeholder="Enter Your C Name"><br>
+        </div>
+        </div>
+        <button class="button" id="calculate"><i class="fa-solid fa-heart"></i> Calculate <i class="fa-solid fa-heart"></i></button>
+        <button class="button" id="reload">Reload</button>
+        
+    </form>
+    <div class="results">
+        <h3 id="result">Result</h3>
+        <i class="fa-solid fa-spinner fa-spin-pulse fa-2x" id="icon"></i>
+    </div>
+    <script src="/index.js"></script>
+</body>
+</html>
